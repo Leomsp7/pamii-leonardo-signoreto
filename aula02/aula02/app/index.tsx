@@ -2,6 +2,14 @@ import { Text, Button, Image, View, StyleSheet } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import { useState } from 'react';
 
+
+export default function Index() {
+  return (
+    <View style={styles.container}>
+      <Text>Hello world!</Text>
+    </View>
+  );
+
 export default function ImagePickerExample() {
   const [image, setImage] = useState<string | null>(null);
 
